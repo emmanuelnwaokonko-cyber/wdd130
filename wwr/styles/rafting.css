@@ -48,6 +48,20 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    width: 10px;
+    height: auto;
+}
+
+.socialmedia img {
+    width: 65px;
+    height: 65px;
+}
+
+.history-box {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #055a05;
 }
 
 .hero {
