@@ -17,6 +17,14 @@ header {
     color: var(--accent2-color);
 }
 
+.header-grid {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    background-color: #055a05;
+    padding: 15px;
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -44,6 +52,21 @@ article {
     margin: 16px;
     padding: 8px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-flex a {
+    padding: 8px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
 }
 
 .socialmedia a {
@@ -85,4 +108,23 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.adventure {
+    text-align: center;
+    padding: 20px;
+}
+
+.adventure-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.adventure-flex figure {
+    text-align: center;
+}
+
+.adventure-flex img {
+    width: 100px;
 }
