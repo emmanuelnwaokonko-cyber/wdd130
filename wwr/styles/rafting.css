@@ -59,6 +59,15 @@ article {
 
 .hero {
     position: relative;
+    text-align: center;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    border: 1px #264653;
+    padding: 15px;
 }
 
 .hero article {
@@ -101,4 +110,9 @@ h1 {
     float: right;
     width: 125px;
     margin: auto;
+}
+
+.history {
+    padding: 20px;
+    text-align: center;
 }
