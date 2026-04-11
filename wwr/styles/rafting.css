@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--body-font);
     color: var(--accent1-color);
 }
 
@@ -21,7 +21,7 @@ body {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
-    background-color: #055a05;
+    background-color: var(--primary-color);
     padding: 20px;
 }
 
@@ -41,6 +41,7 @@ body {
     border: 1px solid #264653;
     background-color: #fff;
     color: black;
+    font: var(--heading-font);
 }
 
 .hero {
@@ -74,7 +75,7 @@ body {
     bottom: 60px;
     left: 10px;
     width: 98.5%;
-    color: #fff;
+    color: var(--accent2-color);
 }
 
 .hero article img {
@@ -136,7 +137,7 @@ body {
     height: 80px;
 }
 
-. figcaption {
+.figcaption {
     font-size: 0.8rem;
     margin-top: 5px;
 }
