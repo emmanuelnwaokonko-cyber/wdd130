@@ -114,6 +114,10 @@ body {
     padding: 20px;
     margin-top: 20px;
     text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
 }
 
 .adventures h2 {
@@ -124,12 +128,6 @@ body {
     background-color: #264653;
     color: #fff;
     padding: 10px;
-}
-
-.adventures {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
 }
 
 .adventures img {
@@ -251,19 +249,15 @@ footer {
     padding: 20px;
     border: 1px solid #264653;
     text-align: center;
-}
 
-.employees h2 {
-    margin-bottom: 20px;
-}
-
-.employees {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
 .employees h2 {
+    margin-bottom: 20px;
+
     grid-column: 1 / -1;
     text-align: center;
 }
