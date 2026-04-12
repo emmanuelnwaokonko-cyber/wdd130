@@ -41,7 +41,7 @@ body {
     border: 1px solid #264653;
     background-color: #fff;
     color: black;
-    font: var(--heading-font);
+    font-family: var(--heading-font);
 }
 
 .hero {
@@ -135,7 +135,7 @@ body {
     height: 80px;
 }
 
-.figcaption {
+figcaption {
     font-size: 0.8rem;
     margin-top: 5px;
 }
@@ -179,7 +179,7 @@ footer {
 
 .map iframe {
     width: 100%;
-    height: 800px;
+    height: 500px;
     border: 0;
 }
 
@@ -194,7 +194,6 @@ footer {
     grid-template-columns: 150px 1fr;
     align-items: start;
     margin-bottom: 15px;
-    grid-column: 1 / -1;
 }
 
 .form-row label {
@@ -214,14 +213,15 @@ footer {
 
 .radio-group {
     display: flex;
-    align-items: center;
     gap: 8px;
+    flex-direction: column;
 }
 
 .radio-group label {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    align-items: center;
 }
 
 .contact-form button {
@@ -235,7 +235,6 @@ footer {
 
 .checkbox-row {
     margin-left: 150px;
-    margin-top: 10px;
 }
 
 .checkbox-row label {
