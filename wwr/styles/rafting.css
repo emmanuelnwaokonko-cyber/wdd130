@@ -437,7 +437,7 @@ form label[for="phone"] {
     text-align: center;
     color: #e9c46a;
 }
-.trips.hero {
+.trips-hero {
     position: relative;
     text-align: center;
     color: #e9c46a;
@@ -451,6 +451,7 @@ form label[for="phone"] {
 }
 
 .trips-hero h1 {
+    position: absolute;
     top: 40%;
     font-weight: bold;
     font-size: 2.5rem;
@@ -491,7 +492,7 @@ form label[for="phone"] {
 }
 
 .trip-card h2 {
-    margin 10px 0;
+    margin: 10px 0;
 }
 
 .price {
