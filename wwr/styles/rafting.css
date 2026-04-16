@@ -43,8 +43,13 @@ body {
     background-color: transparent;
     color: var(--accent2-color);
     font-family: var(--heading-font);
+    font-weight: bold;
 }
-
+nav a.active {
+    color: #264653;
+    background-color: #e9c46a;
+    border-radius: 5px;
+}
 .hero {
     position: relative;
     text-align: center;
