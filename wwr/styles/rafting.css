@@ -196,13 +196,16 @@ footer {
 }
 
 .form-row {
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    align-items: start;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 15px;
 }
 
 .form-row label {
+    font-weight: bold;
+    margin-top: 5px;
+}
+form label[for="phone"] {
     font-weight: bold;
 }
 
@@ -211,7 +214,9 @@ footer {
     padding: 8px;
     border: 1px solid #264653;
     width: 100%;
+    font-size: 1rem;
 }
+
 
 .contact-form textarea {
     height: 100px;
